@@ -39,13 +39,13 @@ void challenger1Turn(){
    do{
       printf("\nChallenger 1's Turn\n");
          do{
-            printf("Enter row #(1-3): ");
+            printf("Enter Row: ");
             scanf("%d", &row);
             row--;
          }while(row < 0 || row > 2);
 
          do{
-            printf("Enter column #(1-3): ");
+            printf("Enter Column: ");
             scanf("%d", &column);
             column--;
          }while(column < 0 || column > 2);
@@ -65,13 +65,13 @@ void challenger2Turn(){
    do{
       printf("\nChallenger 2's Turn\n");
          do{
-            printf("Enter row #(1-3): ");
+            printf("Enter Row: ");
             scanf("%d", &row);
             row--;
          }while(row < 0 || row > 2);
 
          do{
-            printf("Enter column #(1-3): ");
+            printf("Enter Column: ");
             scanf("%d", &column);
             column--;
          }while(column < 0 || column > 2);
